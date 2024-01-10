@@ -1,0 +1,27 @@
+.container {
+    width: 100%;
+    height: 100%;
+
+    header {
+        .logo {
+            height: 60px;
+            width: 60px;
+        }
+    }
+
+    .content {
+        height: 100%;
+        width: 100%;
+        .cities img {
+            height: 150px;
+            width: 150px;
+        }
+    }
+
+    footer {
+        .app-icons a img {
+            height: 20px;
+            width: 22px;
+        }
+    }
+}

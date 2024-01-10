@@ -4,23 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>List</title>
+    <link rel="stylesheet" href="styles/list.css">
 </head>
 <body>
     <div class="container">
-        <div class="header">
+        <header>
             <a href="index.html" target="_blank">
-                <img src="assests/images/logo.png" alt="logo" srcset="" height="100px" width="150px">
+                <img class="logo" src="assests/images/logo.png" alt="logo" srcset="">
             </a>
             <a href="login.html" target="_blank">Login</a>
-        </div>
-        <div class="content">
+        </header>
+        <section class="content">
             <div>
                 <ul>
-                    <li><a href="#">List View</a></li>
-                    <li><a href="#">Map View</a></li>
+                    <li><a href="#list-view">List View</a></li>
+                    <li><a href="#map-view">Map View</a></li>
                 </ul>
             </div>
-            <div>
+            <div id="list-view">
                 <div>
                     <a href="detail.html">
                         <img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" alt="radisson-blu">
@@ -42,27 +43,28 @@
                     <p>New Delhi</p>
                 </div>
             </div>
-            <div>
+            <div id="map-view">
                 <img src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png" alt="map">
+                <p>MAP VIEW</p>
             </div>
-        </div>
-        <div class="footer">
+        </section>
+        <footer>
             <div>
                 <a href="contact.html" target="_blank" rel="noopener noreferrer">Contact Us</a>
             </div>
-            <div>
+            <div class="app-icons">
                 <a href="http://www.facebook.com" target="_blank" rel="noopener noreferrer">
-                    <img src="assests/images/facebook.png" alt="facebook" width="22px" height="20px">
+                    <img src="assests/images/facebook.png" alt="facebook">
                 </a>
                 <a href="http://www.instagram.com" target="_blank" rel="noopener noreferrer">
-                    <img src="assests/images/instagram.png" alt="instagram" width="22px" height="20px">
+                    <img src="assests/images/instagram.png" alt="instagram">
                 </a>
                 <a href="http://www.twitter.com" target="_blank" rel="noopener noreferrer">
-                    <img src="assests/images/twitter.png" alt="twitter" width="22px" height="20px">
+                    <img src="assests/images/twitter.png" alt="twitter">
                 </a>
             </div>
             <div>&copy; 2024 ROOM SEARCH PVT. LTD.</div>
-        </div>
+        </footer>
     </div>
 </body>
 </html>
